@@ -1,0 +1,100 @@
+body{
+    background-color: #EEC8C8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:#33118A;
+}
+.container h3{
+    background-color: aquamarine;
+    color: brown;
+    padding: 1%;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: lowercase;
+    letter-spacing: 0.2em;
+
+}
+/* div{
+    font-size: 10px;
+
+} */
+p{
+    color: hsl(339, 85%, 19%);
+    font-family: 'Imperial Script', Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+#second-p{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1 rem;
+    font-weight: 800;
+}
+#box-model{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    /* margin: 20px; */
+
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    /* margin: 5px 10px 5px 10px; */
+
+    margin: 5px 10px;
+}
+
+.categories{
+    border: 1px solid rgb(92, 85, 85);
+    padding: 10PX;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+.categories a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
