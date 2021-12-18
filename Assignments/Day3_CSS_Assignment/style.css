@@ -1,0 +1,151 @@
+body{
+    background-image: url("images/av7PrR.jpeg") ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-heading{
+    text-align: center;
+    color: rgb(195, 195, 195);
+    font-style: italic;
+    font-weight: 800;
+    background-color: #333;
+    font-size: xxx-large;
+    
+}
+.container{
+    background-color: rgb(75, 75, 75,50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h2{
+    padding: 1%;
+    text-decoration: solid;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+}
+.container h3{
+    background-color: rgb(195, 195, 195, 50%);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    font-family: cursive;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+
+}
+
+#first-ul a{
+    color: rgb(195, 195, 195);
+    text-decoration: none;  
+}
+#first-ul a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+#second-ul a{
+    color: rgb(195, 195, 195);
+    text-decoration: none; 
+}
+#second-ul a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+#third-ul a{
+    color: rgb(195, 195, 195);
+    text-decoration: none; 
+}
+#third-ul a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
+p{
+    color: hsl(0, 0%, 0%);
+    font-style: italic;
+    font-size: 2 rem;
+    font-weight: bold;
+    line-height: 1.6em;
+    padding: 1%;
+}
+
+#first-p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1 rem;
+    font-weight: 800;
+}
+#second-p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1 rem;
+    font-weight: 800;
+}
+#third-p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1 rem;
+    font-weight: 800;
+}
+#box-model{
+    background-color: rgb(207, 62, 62);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px;
+    size-adjust: 100%;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    
+    /* margin: 20px; */
+
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    /* margin: 5px 10px 5px 10px; */
+
+    margin: 5px 10px;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+    font-weight: 600;
+}
+
+.my-form .form-group select{
+    background-color: rgb(195, 195, 195, 50%);
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 40%;
+    background-color: rgb(195, 195, 195, 50%);
+}
+
+.my-form  input[type="submit"]{
+    background-color: #333;
+    border: 0 none;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;  
+}
+
+::placeholder{
+    color: black;
+    opacity: 0.5;
+}
