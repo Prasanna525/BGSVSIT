@@ -122,3 +122,77 @@ p{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+.block{
+    float: left;
+    width: 33.33%;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.main-block{
+    float:left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.side-block{
+    float:right;
+    width:30%;
+    padding: 15px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.position-box{
+    background-image: url('./images/photo-1549740425-5e9ed4d8cd34.jpeg');
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.position-box h1{
+    position:absolute;
+    bottom: 40px;
+    right: 200px;
+
+}
+.position-box h2{
+    
+    position:absolute;
+    bottom: 140px;
+    right: 200px;
+
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
+}
+
+.my-list li:first-child{
+    background: rebeccapurple;
+}
+
+.my-list li:last-child{
+    background: royalblue;
+}
+
+.my-list li:nth-child(5){
+    background: greenyellow;
+}
+
+.dynamic-list li:nth-child(even){
+    background: yellow;
+}
+.dynamic-list li:nth-child(odd){
+    background: blue;
+}
