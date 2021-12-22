@@ -1,0 +1,109 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 230 , 230);
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #354524;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid yellow;
+
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header li{
+    display: inline;
+    padding: 20px;
+}
+
+header .branding{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+
+header .highlight{
+    color: #fc0;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ab9;
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 400px;
+    background: url('./images/');
+    background-repeat: no-repeat;
+    background-position: 0 -500px;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1{
+    font-size: 55px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#boxes .box{
+    float:left;
+    text-align: center;
+    width: 30%;
+}
+
+footer{
+    padding:20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: yellowgreen;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+aside #sidebar{
+    float:right;
+    width: 30%;
+    background-color: #35422a;
+}
+
+#main-col{
+    float: left;
+    width: 70%;
+}
+
+/* #sidebar .dark{
+    padding: 15px;
+    background-color: #35422a;
+} */
