@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+.branding img{
+    display: inline;
+    float: left;
+    width: 120px;
+    height: 70px;
+    background: #1e2222;
+}
+
+.header{
+    background: #1e2222;
+    color: #fff;
+    padding-top: 0px;
+    min-height: 70px;
+    border-bottom: 3px solid red;
+}
+
+.branding h1{
+    padding: 5px;
+    float: left;
+    padding-left: 20px;
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: 'DM serif text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header a{
+    color: #ffc600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* font-family: cursive; */
+    font-family: 'DM serif text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header li{
+    display: inline;
+    padding: 0 30px;
+}
+
+/* .header::after {    
+    clear: right;   
+} */
+
+section{
+    margin: 0;
+    padding: 1px;
+}
+
+
+body{
+    font-size: 15px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'DM serif text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(245, 222, 179); */
+    background-color: #999;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+ul{
+    margin: 0;
+    padding-top: 5px;
+}
+
+header .branding{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+
+header .highlight{
+    color: #ffc600;
+    font-weight: bold;
+    float: left;
+}
+
+header a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.header .clearfix{
+    clear: both;
+}
+
+#showcase{
+    min-height: 350px;
+    background: url('./images/below-header.jpeg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: 0 -15px ;
+    text-align: center;
+    color: silver;
+}
+
+#showcase h1{
+    margin-top: 80px;
+    font-size: 60px;
+    left: 375px;
+    text-align: center;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#showcase .pet{
+    font-weight:bolder;
+    color: red;
+}
+#showcase p{
+    padding-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    width: 15em;
+    text-align: center;
+    /* font-family: cursive; */
+    font-family: 'DM serif text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.2em;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+#boxes h1{
+    font-family: 'DM serif text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+
+#boxes .box p{
+    word-wrap: break-word;
+    font-family: 'DM serif text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: 'Brush Script MT', cursive; */
+    font-size: x-large;
+}
+
+#boxes .clearfix{
+    clear: both;
+}
+
+#sidebar{
+    
+    float: right;
+    width: 30%;    
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 75px;
+}
+
+#main-col{
+    float: left;
+    width: 65%;
+    padding-bottom: 80px;
+}
+
+#main-col p{
+    font-size: large;
+}
+
+#main .page-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+.dark{
+    
+    padding: 20px;
+    background: #1e2222;
+    border: 1px solid wheat;
+    border-radius: 20px; 
+    color: #999;
+}
+
+#services li{
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background: #1e2222;
+    color: white;
+}
+
+#sidebar .quote input[type="text"], .quote input[type="number"], .quote input[type="email"], .quote textarea{
+    width: 100%;
+    border-radius: 6px;
+    background-color: #999;
+}
+
+#sidebar .quote{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+::placeholder{
+    color: black;
+    opacity: 0.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    background-color: #ffc600;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 6px #999;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.button:active {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px #666;
+    color:greenyellow;
+    transform: translateY(4px);
+}
+
+footer{
+    padding:0px;
+    margin-top: 0px;
+    color: #999;
+    background: #1e2222;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#main .clearfix{
+    clear: both;
+}
