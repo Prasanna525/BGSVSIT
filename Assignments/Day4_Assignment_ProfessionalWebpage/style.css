@@ -13,7 +13,7 @@
     color: #fff;
     padding-top: 0px;
     min-height: 70px;
-    border-bottom: 3px solid red;
+    border-bottom: 2px solid red;
 }
 
 .branding h1{
@@ -182,8 +182,10 @@ header a:hover{
 }
 
 #main .page-title{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'DM serif text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-style: oblique;
 }
 
 .dark{
@@ -192,7 +194,8 @@ header a:hover{
     background: #1e2222;
     border: 1px solid wheat;
     border-radius: 20px; 
-    color: #999;
+    /* color: #999; */
+    color: white;
 }
 
 #services li{
@@ -257,6 +260,7 @@ footer{
     bottom: 0;
     width: 100%;
     font-family: 'Brush Script MT', cursive;
+    border-top: 2px solid red;
 }
 
 #main .clearfix{
