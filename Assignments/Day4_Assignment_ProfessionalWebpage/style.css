@@ -168,13 +168,13 @@ header a:hover{
     width: 30%;    
     border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
-    margin-top: 75px;
+    margin-top: 90px;
 }
 
 #main-col{
     float: left;
     width: 65%;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 
 #main-col p{
@@ -186,8 +186,13 @@ header a:hover{
     font-family: 'DM serif text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
     font-style: oblique;
+    padding-bottom: 0;
 }
 
+#main img{
+    padding-left: 120px;
+    padding-bottom: 35px;
+}
 .dark{
     
     padding: 20px;
@@ -236,6 +241,7 @@ header a:hover{
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 0 6px #999;
+    font-family: 'DM serif text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .button:hover {
@@ -265,4 +271,5 @@ footer{
 
 #main .clearfix{
     clear: both;
+    clear:right;
 }
