@@ -1,0 +1,29 @@
+body{
+    font-size: 6em;
+}
+
+.box1{background-color: aliceblue;}
+.box2{background-color: antiquewhite;}
+.box3{background-color: aqua;}
+
+.container{
+    display: flex;
+    border: 5px solid black;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+}
+
+.box3{
+    order:1;
+}
+
+
+
+
+
+
+

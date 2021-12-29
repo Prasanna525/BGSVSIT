@@ -1,0 +1,28 @@
+.box{
+    font-size: 100px;
+    color:white;
+    box-sizing: border-box;
+}
+
+.box1{background-color: black;}
+.box2{background-color: wheat;}
+.box3{background-color: aqua;}
+.box4{background-color: blue;}
+.box5{background-color: red;}
+.box6{background-color: yellow;}
+.box7{background-color: gray;}
+.box8{background-color: green;}
+.box9{background-color: brown;}
+.box10{background-color: blueviolet;}
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.box{
+    width: 33.33%;
+}
