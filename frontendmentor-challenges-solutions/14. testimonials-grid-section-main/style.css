@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(0, 0%, 81%);
+    font-size: 13px;
+}
+
+img{
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
+}
+
+.daniel img{
+    border: 2px solid hsl(263, 34%, 61%);
+}
+
+.info{
+    display: flex;
+    justify-content: flex-start;
+}
+
+small{
+    opacity: 50%;
+}
+
+p{
+    opacity: 70%;
+}
+
+.container{
+    display: flex;
+    padding: 120px;
+    flex-wrap: wrap; 
+}
+
+.name{
+    line-height: 0%;
+    padding-left: 20px;
+}
+
+.left-4{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.75;
+}
+
+.right-1{
+    flex: 0.25;
+}
+
+.top-2{
+    display: flex;
+}
+
+.bottom-2{
+    display: flex;
+}
+
+.box{
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0 -10px;
+}
+
+.daniel{
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(210, 46%, 95%);
+    flex-basis: 66.66%;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.jonathan{
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+    flex-basis: 33.33%;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.jeanette{
+    background-color: #fff;
+    color: hsl(217, 19%, 35%);
+    flex-basis: 33.33%;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+
+.patrick{
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(210, 46%, 95%);
+    flex-basis: 66.66%;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+
+.kira{
+    background-color: #fff;
+    color: hsl(217, 19%, 35%);
+    height: 100%;
+    margin: 0 10px;
+}
+
+.attribution{
+    text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+    
+    .top-2, .bottom-2, .container{
+        flex-direction: column;
+    }
+
+    .box{
+        margin-bottom: 20px;
+    }
+
+    .container{
+        padding: 80px 20px;
+    }
+    
+}

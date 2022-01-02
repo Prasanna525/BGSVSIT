@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./images/bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+}
+
+.container{
+    display: flex;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    color: #fff;
+}
+
+p{
+    font-size: 16;
+    color: #fff;
+}
+
+.right{
+    padding: 50px;
+}
+
+.button{
+    border-radius: 30px;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    padding: 15px 60px;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.social-media{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.social-media .circle{
+    border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+	height: 40px;
+	width: 40px;
+	text-decoration: none;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.circle:active{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%)
+}
+
+@media screen and (max-width: 768px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .illustration{
+        width: 100%;
+    }
+    
+    .social-media{
+        justify-content: center;
+    }
+
+    body{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    h1{
+        font-weight: 400;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .button{
+        align-self: center;
+        text-align: center;
+        width: 80%;
+    }
+}
