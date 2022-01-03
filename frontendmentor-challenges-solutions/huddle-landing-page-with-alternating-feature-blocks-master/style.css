@@ -132,6 +132,8 @@ footer {
 
 footer ul {
 	list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 footer ul li {
@@ -163,11 +165,20 @@ footer p {
     font-size: small;
 }
 
+.address ul :nth-child(1){
+    list-style-image: url('./images/icon-location.svg');
+}
+.address ul :nth-child(2){
+    list-style-image: url('./images/icon-phone.svg');
+}
+.address ul :nth-child(3){
+    list-style-image: url('./images/icon-email.svg');
+}
 .lists{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    align-content: space-between;
+    align-content: center;
 }
 
 .lists > ul{
@@ -175,35 +186,101 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-	body {
-		text-align: center;
-	}
 
 	nav {
 		flex-direction: row;
+        justify-content: space-between;
 	}
 
+    .try-free{
+        background-color: #fff;
+        border: none;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15) ;
+    }
 	.header-img {
 		margin-top: 40px;
 		margin-left: 0;
 		width: 100%;
 	}
 
+    .top-bar :nth-child(1){
+        width: 150px;
+    }
+    
+    .button-1{
+        align-self: center;
+    }
 	.below-logo {
 		flex-direction: column;
 	}
 
     .lists{
         flex-direction: column;
+        align-items: flex-start;
     }
     .box{
         flex-direction: column;
+        padding: 40px;
+        margin: 20px;
     }
 	.flowing-conversation {
-		flex-direction: column-reverse;
+		flex-direction: column;
+        text-align: center;
 	}
+    .grow-together{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .your-users{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 
-	footer p {
+	/* footer p {
 		text-align: center;
-	}
+	} */
+
+    .center-box{
+        position: absolute;
+        left: -355px;
+        top: 2620px;
+        width: 80%;
+        padding: 40px;
+    }
+
+    .center-box h2{
+        font-size: 18px;
+    }
+
+    .container2{
+        margin-bottom: 200px;
+    }
+    .container3{
+        padding: 20px;
+    }
+    .white-logo{
+        position: relative;
+        left: -10px;
+    }
+    
+    .address{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .faq li{
+        margin-left: 0;
+    }
+
+    .social-media{
+        margin-left: 140px;
+    }
+   
+    .attribution{
+        margin-left: 55px;
+    }
 }
