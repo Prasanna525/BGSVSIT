@@ -89,6 +89,7 @@ img{
 
 .container3{
     padding-left: 80px;
+    padding-right: 80px;
 }
 .box{
     display: flex;
@@ -165,11 +166,12 @@ footer p {
 .lists{
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .lists > ul{
-    flex: 1;
+    flex: 0.25;
 }
 
 @media screen and (max-width: 768px) {

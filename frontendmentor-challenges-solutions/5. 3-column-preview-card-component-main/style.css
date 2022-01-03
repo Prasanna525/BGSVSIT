@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 120px 260px;
+    /* flex-wrap: wrap; */
+}
+
+h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif ;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5rem;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px 0 0 10px;
+}
+.sedans .button{
+    color: hsl(31, 77%, 52%);
+}
+.sedans .button:active{
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.suvs .button{
+    color: hsl(184, 100%, 22%);
+}
+.suvs .button:active{
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 10px 10px 0;
+}
+.luxury .button{
+    color: hsl(179, 100%, 13%);
+}
+.luxury .button:active{
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-family: 'Lexend Deca', sans-serif ;
+    border: none;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:650px){
+    .container{
+        flex-direction: column;
+        padding: 40px 80px;
+    }
+
+    .sedans{
+        border-radius: 10px 10px 0 0 ;
+    }
+
+    .luxury{
+        border-radius: 0 0 10px 10px;
+    }
+}
