@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 
-export default class Welcome extends Component {
+class Welcome extends Component {
     render() {
-        return <p>Welocme to the world of React</p>;
+        const { name, children } = this.props;
+        return (
+            <div>
+                <h1>Welcome {name}</h1>
+                <p>{children}</p>
+            </div>
+        );
     }
 }
+
+export default Welcome;
